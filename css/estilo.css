@@ -1,0 +1,206 @@
+body {
+    margin: 20px;
+    background-image: url(../img/fantaya.jpg);
+    background-size: cover;
+}
+
+.contenedor {
+    background-color: rgb(50, 8, 61);
+    color: rgb(4, 243, 251);
+    text-transform: uppercase;
+}
+
+.cabeza {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    border: 3px solid black;
+    background-color: rgb(50, 8, 61);
+    font-size: large;
+    text-transform: uppercase;
+    border-radius: 3px;
+    height: 60px;
+}
+
+.menu {
+    display: inline;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: rgb(4, 243, 251);
+}
+
+.logo {
+    width: 55px;
+    position: absolute;
+    left: 0px;
+    top: 0px
+}
+
+.resultados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 15px;
+    background-color: rgb(4, 243, 251);
+}
+
+.fecha {
+    margin: 10px;
+    text-align: center;
+}
+
+.impar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    border-radius: 3px;
+    border: solid 1px;
+}
+
+.par {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    border-radius: 3px;
+    border: solid 1px;
+}
+
+.local {
+    width: 100px;
+}
+
+.visitante {
+    width: 100px;
+}
+
+
+.tabla {
+    background-color: rgb(4, 243, 251);
+    text-align: center;
+}
+
+.tablaTitulares {
+    width: 250px;
+    height: 350px;
+    border-top: 1px black solid;
+    border-radius: 3px;
+    width: 250px;
+}
+
+.tablaSuplentes {
+    border-top: 1px black solid;
+    border-radius: 3px;
+    width: 250px;
+}
+
+
+
+.formacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+.tablaEquipo {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 35%;
+    background-color: rgb(4, 243, 251);
+    text-align: center;
+}
+
+.tactica {
+    margin: 0px;
+    width: 250px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-radius: 3px;
+}
+
+.tablaJugadores {
+    border-right: 0.5px solid black;
+    border-left: solid 1px black;
+    border-top: solid 2px black;
+    border-bottom: solid 1px black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.tablaEquipos {
+    border-right: 0.5px solid black;
+    border-top: solid 2px black;
+    border-bottom: solid 1px black;
+}
+
+.tablaPosicion {
+    border-right: 0.5px solid black;
+    border-top: solid 2px black;
+    border-bottom: solid 1px black;
+}
+
+.cabezaDeTabla {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.titulares {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: 1px solid black;
+}
+
+.jugadoresTitulares {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.titularesJugadores {
+    border-right: 1px solid black;
+}
+
+.titularesEquipos {
+    border-right: 1px solid black;
+    width: 80px;
+}
+
+.titularesPosiciones {
+    border-right: 1px solid black;
+    width: 80px;
+}
+
+.titularesCapitanElegido {
+    border-right: 1px solid black;
+}
+.tablaEquipoElegido {    
+    background-color: rgb(4, 243, 251);
+    border-right: 1px solid black;
+    border-top: solid 2px black;
+    border-bottom: solid 1px black;    
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.titulo {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(50, 8, 61);
+    text-align: center;
+    background-color: rgb(4, 243, 251);
+}
+
+.foot {
+    font-size: 25px;
+    color: rgb(50, 8, 61);
+    display: inline;
+}
+
+.formulario {
+    color: rgb(50, 8, 61);
+}
+
+.equipoElegido {
+    font-size: 94.5%;
+    height: 26px;
+}
