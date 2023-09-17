@@ -1,0 +1,10 @@
+p {
+    font-family: $mainFont;
+    font-size: $textMd;
+    font-weight: $fontBold;
+}
+
+.tablas {
+    display: flex;
+    padding: $paddingMedio;
+}
