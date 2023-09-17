@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+img {
+  float: left;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
@@ -8,6 +12,21 @@ p {
 .tablas {
   display: flex;
   padding: 30px;
+}
+
+body {
+  background-image: url(../img/fantaya.jpg);
+  background-size: cover;
+  animation: textAlpha 1s;
+}
+
+@keyframes textAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

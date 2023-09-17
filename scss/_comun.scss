@@ -8,3 +8,17 @@ p {
     display: flex;
     padding: $paddingMedio;
 }
+
+body {
+    background-image: url(../img/fantaya.jpg);
+    background-size: cover;
+    animation: textAlpha 1s;
+}
+@keyframes textAlpha {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+ }
