@@ -1,3 +1,15 @@
 img {
     float: left; 
 }
+
+.navbar-collapse:hover {
+    background-color: blue;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}

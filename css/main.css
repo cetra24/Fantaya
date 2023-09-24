@@ -3,6 +3,18 @@ img {
   float: left;
 }
 
+.navbar-collapse:hover {
+  background-color: blue;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
@@ -17,16 +29,32 @@ p {
 body {
   background-image: url(../img/fantaya.jpg);
   background-size: cover;
-  animation: textAlpha 1s;
+  animation: textAlpha 1.5s;
 }
 
 @keyframes textAlpha {
   from {
     opacity: 0;
+    transform: translateY(-20px);
+    color: transparent;
   }
   to {
     opacity: 1;
+    transform: translateY(0);
+    color: #333;
   }
+}
+h2 {
+  transition: background-color 0.3s ease;
+}
+
+h2:hover {
+  background-color: red;
+}
+
+iframe:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
 }
 
 /*# sourceMappingURL=main.css.map */
