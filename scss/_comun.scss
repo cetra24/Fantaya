@@ -10,7 +10,7 @@ p {
 }
 
 body {
-    background-image: url(../img/fantaya.jpg);
+    background-image: url(../img/fantaya.webp);
     background-size: cover;
     animation: textAlpha 1.5s;
 }
@@ -38,4 +38,34 @@ h2:hover {
 iframe:hover {
     transform: scale(1.2); 
     transition: transform 0.3s ease; 
+}
+
+
+
+.error-container {
+    margin-left: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.error-container h1, .error-container p, .error-container a {
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+
+.error-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.error-container a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.tablas:hover {
+    color: yellow;
 }
