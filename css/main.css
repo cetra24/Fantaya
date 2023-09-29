@@ -86,7 +86,7 @@ iframe:hover {
 .error-container a {
   text-decoration: none;
   font-weight: bold;
-  color: red;
+  color: deeppink;
 }
 
 .error-container a:hover {
