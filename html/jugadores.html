@@ -4,18 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantaya - Jugadores</title>
+    <title>Fantaya</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
     <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../img/logofantaya.webp" type="image/x-icon">
     <meta name="description" content="Sitio web de Fantaya con resultados de partidos y fechas del mejor Fantasy de la Premier League.">
+    <meta name="keywords" content="Fantaya, Fantasy, Premier League, Resultados, Fechas">
+    <style>
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+            }
+            .navbar {
+                padding: 5px;
+            }
+            h1 {
+                text-align: center;
+            }
+            .col-md-4 {
+                margin-bottom: 20px;
+            }
+            iframe {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
-<body class="container">
+<body class="container" style="background-image: url('../img/city.webp'); background-size: cover;">
     <header>
-        <img src="../img/logofantaya.webp" alt="Logo de Fantaya" width="60" height="60">
+        <a href="../index.html">
+            <img src="../img/logofantaya.webp" alt="Logo de Fantaya" width="60" height="60">
+        </a>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,10 +46,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="jugadores.html">Jugadores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="jugadores.html">Jugadores</a>
+                            <a class="nav-link" href="tabla.html">Tablas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="resultados.html">Resultados</a>
@@ -47,134 +68,90 @@
     <h1 class="text-xl-center text-md-center text-sm-start bg-light">Jugadores</h1>
     <div class="container">
         <input type="text" id="jugadorEquipo" placeholder="Jugador/Equipo"> <button type="submit">Buscar</button>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Jugador</th>
-                        <th>Posición</th>
-                        <th>Equipo</th>
-                    </tr>
-                </thead>
-                <tr>
-                    <td>Jugador 1</td>
-                    <td>Posición 1</td>
-                    <td>Equipo 1</td>
-                </tr>
-                <tr>
-                    <td>Jugador 2</td>
-                    <td>Posición 2</td>
-                    <td>Equipo 2</td>
-                </tr>
-                <tr>
-                    <td>Jugador 3</td>
-                    <td>Posición 3</td>
-                    <td>Equipo 3</td>
-                </tr>
-                <tr>
-                    <td>Jugador 4</td>
-                    <td>Posición 4</td>
-                    <td>Equipo 4</td>
-                </tr>
-                <tr>
-                    <td>Jugador 5</td>
-                    <td>Posición 5</td>
-                    <td>Equipo 5</td>
-                </tr>
-                <tr>
-                    <td>Jugador 6</td>
-                    <td>Posición 6</td>
-                    <td>Equipo 6</td>
-                </tr>
-                <tr>
-                    <td>Jugador 7</td>
-                    <td>Posición 7</td>
-                    <td>Equipo 7</td>
-                </tr>
-                <tr>
-                    <td>Jugador 8</td>
-                    <td>Posición 8</td>
-                    <td>Equipo 8</td>
-                </tr>
-                <tr>
-                    <td>Jugador 9</td>
-                    <td>Posición 9</td>
-                    <td>Equipo 9</td>
-                </tr>
-                <tr>
-                    <td>Jugador 10</td>
-                    <td>Posición 10</td>
-                    <td>Equipo 10</td>
-                </tr>
-                <tr>
-                    <td>Jugador 11</td>
-                    <td>Posición 11</td>
-                    <td>Equipo 11</td>
-                </tr>
-                <tr>
-                    <td>Jugador 12</td>
-                    <td>Posición 12</td>
-                    <td>Equipo 12</td>
-                </tr>
-                <tr>
-                    <td>Jugador 13</td>
-                    <td>Posición 13</td>
-                    <td>Equipo 13</td>
-                </tr>
-                <tr>
-                    <td>Jugador 14</td>
-                    <td>Posición 14</td>
-                    <td>Equipo 14</td>
-                </tr>
-                <tr>
-                    <td>Jugador 15</td>
-                    <td>Posición 15</td>
-                    <td>Equipo 15</td>
-                </tr>
-                <tr>
-                    <td>Jugador 16</td>
-                    <td>Posición 16</td>
-                    <td>Equipo 16</td>
-                </tr>
-                <tr>
-                    <td>Jugador 17</td>
-                    <td>Posición 17</td>
-                    <td>Equipo 17</td>
-                </tr>
-                <tr>
-                    <td>Jugador 18</td>
-                    <td>Posición 18</td>
-                    <td>Equipo 18</td>
-                </tr>
-                <tr>
-                    <td>Jugador 19</td>
-                    <td>Posición 19</td>
-                    <td>Equipo 19</td>
-                </tr>
-                <tr>
-                    <td>Equipo 1</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Equipo 2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Equipo 3</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+        <div class="container bg-white"> 
+            <div class="row jugadores">
+                <div class="col-md-4 col-sm-4 border"> 
+                    <h3 class="border-bottom pb-2">Jugador</h3>
+                    <ul class="list-unstyled"> 
+                        <li>Jugador 1</li>
+                        <li>Jugador 2</li>
+                        <li>Jugador 3</li>
+                        <li>Jugador 4</li>
+                        <li>Jugador 5</li>
+                        <li>Jugador 6</li>
+                        <li>Jugador 7</li>
+                        <li>Jugador 8</li>
+                        <li>Jugador 9</li>
+                        <li>Jugador 10</li>
+                        <li>Jugador 11</li>
+                        <li>Jugador 12</li>
+                        <li>Jugador 13</li>
+                        <li>Jugador 14</li>
+                        <li>Jugador 15</li>
+                        <li>Jugador 16</li>
+                        <li>Jugador 17</li>
+                        <li>Jugador 18</li>
+                        <li>Jugador 19</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 border">
+                    <h3 class="border-bottom pb-2">Posición</h3>
+                    <ul class="list-unstyled"> 
+                        <li>Posición 1</li>
+                        <li>Posición 2</li>
+                        <li>Posición 3</li>
+                        <li>Posición 4</li>
+                        <li>Posición 5</li>
+                        <li>Posición 6</li>
+                        <li>Posición 7</li>
+                        <li>Posición 8</li>
+                        <li>Posición 9</li>
+                        <li>Posición 10</li>
+                        <li>Posición 11</li>
+                        <li>Posición 12</li>
+                        <li>Posición 13</li>
+                        <li>Posición 14</li>
+                        <li>Posición 15</li>
+                        <li>Posición 16</li>
+                        <li>Posición 17</li>
+                        <li>Posición 18</li>
+                        <li>Posición 19</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 border"> 
+                    <h3 class="border-bottom pb-2">Equipo</h3>
+                    <ul class="list-unstyled"> 
+                        <li>Equipo 1</li>
+                        <li>Equipo 2</li>
+                        <li>Equipo 3</li>
+                        <li>Equipo 4</li>
+                        <li>Equipo 5</li>
+                        <li>Equipo 6</li>
+                        <li>Equipo 7</li>
+                        <li>Equipo 8</li>
+                        <li>Equipo 9</li>
+                        <li>Equipo 10</li>
+                        <li>Equipo 11</li>
+                        <li>Equipo 12</li>
+                        <li>Equipo 13</li>
+                        <li>Equipo 14</li>
+                        <li>Equipo 15</li>
+                        <li>Equipo 16</li>
+                        <li>Equipo 17</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer>
+    <footer class="foot">
         <a href="https://www.instagram.com/fantasyporco/" target="_blank">
             <img src="/img/instagram.webp" alt="Síguenos en Instagram" width="30" height="30">
         </a>
         <a href="404.html">
             <img src="/img/x.webp" alt="Síguenos en X" width="30" height="30">
         </a>
-        <p class="foot">Sitio Web Fantayero</p>
+        <p >
+            <span class="footer-text">Sitio Web Fantayero</span></p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
