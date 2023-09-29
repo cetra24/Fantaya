@@ -42,12 +42,28 @@ body {
     color: #333;
   }
 }
-h2 {
+@keyframes move-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.fantaya {
+  transition: transform 0.3s ease;
+}
+.fantaya:hover {
+  animation: move-up 0.3s ease;
+  transform: translateY(-10px);
+  background-color: blue;
+  color: bisque;
   transition: background-color 0.3s ease;
 }
 
-h2:hover {
-  background-color: red;
+.hoverable-text span:hover {
+  background-color: blue;
+  color: bisque;
 }
 
 iframe:hover {
