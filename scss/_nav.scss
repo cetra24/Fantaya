@@ -13,3 +13,28 @@ img {
 .navbar-nav .nav-link:hover {
     color: white;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 5px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .col-md-5 {
+        margin-bottom: 20px;
+    }
+
+    .col-md-6 {
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
