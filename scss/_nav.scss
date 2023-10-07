@@ -1,8 +1,11 @@
 img {
     float: left; 
 }
+.navbar-nav.ml-auto {
+    text-align: right;
+}
 
-.navbar-collapse:hover {
+.navbar-collapse a:hover {
     background-color: blue;
 }
 

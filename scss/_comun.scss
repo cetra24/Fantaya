@@ -60,7 +60,6 @@ iframe:hover {
 
 
 .error-container {
-    margin-left: 100px;
     text-align: center;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -69,17 +68,17 @@ iframe:hover {
 
 .error-container h1, .error-container p, .error-container a {
     color: #333; 
-    font-family: Arial, sans-serif; 
+    font-family: $mainFont; 
 }
 
 .error-container a {
-    text-decoration: none;
-    font-weight: bold;
     color:$mainColor;
+    font-weight: $fontBold;
+    text-decoration: $subrayadoSi;
 }
 
 .error-container a:hover {
-    text-decoration: underline;
+    text-decoration: $subrayadoNo;
     color:$secondaryColor;
 }
 
@@ -110,4 +109,9 @@ ul.list-unstyled {
 
 .foot {
     padding: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
 }

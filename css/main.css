@@ -3,7 +3,11 @@ img {
   float: left;
 }
 
-.navbar-collapse:hover {
+.navbar-nav.ml-auto {
+  text-align: right;
+}
+
+.navbar-collapse a:hover {
   background-color: blue;
 }
 
@@ -15,6 +19,26 @@ img {
   color: white;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .navbar {
+    padding: 5px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .col-md-5 {
+    margin-bottom: 20px;
+  }
+  .col-md-6 {
+    text-align: center;
+  }
+  iframe {
+    width: 100%;
+  }
+}
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
@@ -23,7 +47,6 @@ p {
 
 .tablas {
   display: flex;
-  padding: 30px;
 }
 
 html {
@@ -72,7 +95,6 @@ iframe:hover {
 }
 
 .error-container {
-  margin-left: 100px;
   text-align: center;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -80,17 +102,17 @@ iframe:hover {
 
 .error-container h1, .error-container p, .error-container a {
   color: #333;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .error-container a {
-  text-decoration: none;
-  font-weight: bold;
   color: deeppink;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .error-container a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: blue;
 }
 
@@ -121,6 +143,11 @@ ul.list-unstyled {
 
 .foot {
   padding: 10px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
